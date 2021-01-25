@@ -1,0 +1,62 @@
+Soal 1:
+  A. Setiap langkah harus di definisikan tidak jelas agar tidak ambigu.
+  B. Algoritma haruslah dapat berhenti sesudah mengerjakan sejumlah langkah-langkah yang diprogramkan.
+  C. Algoritma harus memiliki input atau value, untuk menghasilkan output dari logaritma.
+
+Soal 2:
+  A. Algoritma digunakan untuk menyelesaikan masalah.
+  B. Algoritma digunakan untuk mempermudah permasalahan yang ada.
+  C. Algoritma memudahkan kita membuat pemrograman.
+  D. Algoritma meminimalisir program yang berulang-ulang.
+
+Soal 3: 
+  A. Algoritma yang kita buat sendiri.
+  B. Algoritma yang sudah ada pada umumnya.
+
+Project1:
+STORE "HOURS INPUT" with value integer and times with 3600
+STORE "MINUTES INPUT" with value integer and times with 60
+STORE "OUTPUT" with "HOURS INPUT" PLUS "MINUTES OUTPUT"
+
+DISPLAY "OUTPUT"
+
+Project2:
+STORE "ANGKA1" with value integer
+STORE "ANGKA2" with value integer
+
+IF "ANGKA1" < "ANGKA2"
+  DISPLAY "ANGKA2 NILAI TERBESAR"
+ELSE IF "ANGKA1" = "ANGKA2"
+  DISPLAY "ANGKA1 sama dengan ANGKA2"
+
+Project3:
+STORE "JUMLAH PENUMPANG" with value integer
+STORE "HARGA TIKET" with value integer
+STORE "PERGI" with any value
+STORE "PULANG" with any value
+
+IF "HARGA TIKET" === "PERGI" || "PULANG"
+  DISPLAY "HARGA TIKET"
+ELSE IF "HARGA TIKET" === "PERGI" + "PULANG"
+  DISPLAY "HARGA TIKET" TIMES 2
+
+STORE "Output" with value integer "JUMLAH PENUMPANG" TIMES "HARGA TIKET" TIMES "PERGI" || "PULANG" || "PULANG" + "PERGI"
+
+Project4:
+STORE "Count" to 1
+
+FOR LOOP
+  Count > 100
+  Count ++
+
+Project5:
+STORE "ANGKA" with value integer
+
+IF "ANGKA % 2" == 3 
+  DISPLAY "Fizz"
+ELSE IF "ANGKA %2" == 5
+  DISPLAY "Buzz"
+
+
+
+
